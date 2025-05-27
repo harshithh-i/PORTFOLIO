@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Harshith | Freelance Video Editor Portfolio - Reels, Promos, YouTube, Real Estate & More" />
+  <title>Harshith | Video Editor Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            neon: '#00ffe0',
+            dark: '#0d0d0d'
+          },
+          fontFamily: {
+            orbitron: ['Orbitron', 'sans-serif'],
+            roboto: ['Roboto', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-dark text-white font-roboto">
+  <header class="fixed top-0 left-0 right-0 bg-black/80 z-50 p-4 flex justify-between items-center">
+    <h2 class="text-neon font-orbitron text-xl">Harshith</h2>
+    <nav class="space-x-6">
+      <a href="#about" class="text-neon hover:underline">About</a>
+      <a href="#portfolio" class="text-neon hover:underline">Portfolio</a>
+      <a href="#services" class="text-neon hover:underline">Services</a>
+      <a href="#testimonials" class="text-neon hover:underline">Testimonials</a>
+      <a href="#contact" class="text-neon hover:underline">Contact</a>
+    </nav>
+  </header>
+
+  <section class="h-screen flex items-center justify-center text-center bg-cover bg-center" style="background-image: url('your-background-video-or-poster.jpg');">
+    <div class="bg-black/60 p-6 rounded-xl">
+      <h1 class="text-4xl md:text-5xl font-orbitron mb-4">I Turn Raw Footage Into Powerful Stories</h1>
+      <a href="#portfolio" class="inline-block mt-4 bg-neon text-dark font-bold px-6 py-2 rounded-full hover:bg-cyan-400 transition">Watch My Reel</a>
+    </div>
+  </section>
+
+  <section id="about" class="max-w-4xl mx-auto py-20 px-4">
+    <section id="about" class="..." data-aos="fade-up" data-aos-duration="1000">
+    <h2 class="text-3xl font-bold mb-4">About Me</h2>
+    <p class="mb-4">I'm Harshith, a passionate freelance video editor who crafts compelling edits that grab attention. Skilled in Premiere Pro, After Effects, DaVinci Resolve, color grading, transitions, and storytelling.</p>
+  </section>
+
+  <section id="portfolio" class="max-w-5xl mx-auto py-20 px-4">
+    <section id="portfolio" class="..." data-aos="fade-up" data-aos-duration="1000">
+    <h2 class="text-3xl font-bold mb-6">Portfolio</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      <iframe class="w-full h-64 rounded-lg" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+      <iframe class="w-full h-64 rounded-lg" src="https://www.youtube.com/embed/YOUR_VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section id="services" class="bg-black/80 py-20 px-4">
+    <section id="services" class="..." data-aos="fade-up" data-aos-duration="1000">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6">Services</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-dark p-6 rounded-xl hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">Reels Editing</h3>
+          <p>Trendy and viral-worthy edits for Instagram & TikTok.</p>
+        </div>
+        <div class="bg-dark p-6 rounded-xl hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">Long-form Videos</h3>
+          <p>Engaging and polished YouTube videos with storytelling.</p>
+        </div>
+        <div class="bg-dark p-6 rounded-xl hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">Real Estate Videos</h3>
+          <p>Clean, smooth, and cinematic property showcases.</p>
+        </div>
+        <div class="bg-dark p-6 rounded-xl hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">Event Highlights</h3>
+          <p>Memorable moments edited into stunning highlight reels.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="max-w-5xl mx-auto py-20 px-4">
+    <section id="testimonials" class="..." data-aos="fade-up" data-aos-duration="1000">
+    <h2 class="text-3xl font-bold mb-6">Client Testimonials</h2>
+    <div class="grid sm:grid-cols-2 gap-6">
+      <div class="bg-dark p-6 rounded-xl">
+        <img src="client1.jpg" alt="Client 1" class="w-12 h-12 rounded-full mb-2" />
+        <p>"Harshith nailed the vibe I wanted. Super smooth transitions!" – Sarah, Content Creator</p>
+      </div>
+      <div class="bg-dark p-6 rounded-xl">
+        <img src="client2.jpg" alt="Client 2" class="w-12 h-12 rounded-full mb-2" />
+        <p>"Fast, creative, and very professional. Highly recommend!" – Ankit, Realtor</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-black/80 py-20 px-4">
+    <section id="contact" class="..." data-aos="fade-up" data-aos-duration="1000">
+    <div class="max-w-lg mx-auto">
+      <h2 class="text-3xl font-bold mb-6 text-center">Contact Me</h2>
+      <form class="space-y-4">
+        <input type="text" placeholder="Your Name" required class="w-full p-3 rounded bg-dark text-white" />
+        <input type="email" placeholder="Your Email" required class="w-full p-3 rounded bg-dark text-white" />
+        <textarea rows="5" placeholder="Tell me about your project..." required class="w-full p-3 rounded bg-dark text-white"></textarea>
+        <button type="submit" class="bg-neon text-dark font-bold py-3 px-6 w-full rounded-full hover:bg-cyan-400 transition">Send Message</button>
+      </form>
+      <p class="text-center mt-4">Or connect with me on <a href="https://wa.me/YOURNUMBER" class="text-neon underline">WhatsApp</a></p>
+    </div>
+  </section>
+
+  <footer class="text-center text-sm text-gray-400 py-6">
+    &copy; 2025 Harshith | All rights reserved.
+  </footer>
+</body>
+</html>
